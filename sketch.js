@@ -2,8 +2,7 @@ var a = 50;
 var b = 80;
 var c;
 function setup() {
-  createCanvas(400, 400);
-  frameRate(10);
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
